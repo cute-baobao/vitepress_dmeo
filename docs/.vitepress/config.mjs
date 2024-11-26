@@ -7,16 +7,17 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '无敌二手网站', link: 'http://121.40.98.32/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '小碳二手交易平台', link: 'http://8.137.118.146/' },
+      { text: '网站详情', link: '/mission' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '介绍',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '我们的使命', link: '/mission' },
+          { text: '如何工作', link: '/how-it-works' },
+          { text: '常见问题', link: '/faq' }
         ]
       }
     ],
